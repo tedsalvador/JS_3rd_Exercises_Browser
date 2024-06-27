@@ -4,20 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercises - Browser JavaScript</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <div id="Contenedor">
-        <div id="app01"></div>
-        <script type="module" src="./JS/exercise01.js"></script>
+    <header>
+        <h1>Exercises - JavaScript Browser</h1>
+    </header>
+    <main>
+        <div class="grid-container">
+            <div class="app00">
+                <div class="ex00">Ejercicio #</div>
+                <div class="des00">Descripcion</div>
+                <div class="sol00">Solución</div>
+            </div>
 
-        <div id="app02"></div>
-        <script type="module" src="./JS/exercise02.js"></script>
+            <div class="app01">
+                <div class="ex01">Exercise 1</div>
+                <div class="des01"><p>Escribe un programa que escriba en la pantalla un texto 
+                                de tipo &lt;h1&gt; que diga “Hello Javascript”.</p>
+                </div>
+                <div class="sol01">
+                    Solucion:
+                    <script type="module" src="./JS/exercise01.js"></script>
+                </div>
+            </div>
 
-        <p> Escribe un programa que pida el nombre de usuario con input text</p>
-        <input type="text" name="username" id="username" placeholder="Your name">
-        <button id="btn-validate"> Validar </button>
-        <script type="module" src="./JS/exercise03.js"></script>
+            <div class="app02">
+                <div class="ex02">Exercise 2</div>
+                <div class="des02"><p>Escribe un programa que escriba en la pantalla “La suma de 3 + 5 es &lt;resultado&gt;”.</p></div>
+                <div class="sol02">
+                    Solucion:
+                    <script type="module" src="./JS/exercise02.js"></script>
+                </div>
+            </div>
 
-    </div>
+            <div class="app03">
+                <div class="ex03">Exercise 3</div>
+                <div class="des03">
+                    <p>Escribe un programa que pida el nombre de usuario con input text</p>
+                </div>
+                <div class="sol03">
+                    Solucion:
+                    <input type="text" name="username" id="username" placeholder="Your name">
+                    <button id="btn-validate">Validar</button>
+                    <script type="module" src="./JS/exercise03.js"></script>
+                </div>
+            </div>
+
+            <div class="app04">
+                <div class="ex04">Exercise 4</div>
+                <div class="des04">
+                    <p>Escribe un programa que pida dos números y escriba 
+                       “La suma de &lt;numero-uno&gt; con &lt;numero-dos&gt; es &lt;resultado&gt;”</p>
+                </div>
+                <div class="sol04">
+                    <p>Solucion:</p>
+                    <input type="number" name="numb1" id="numb1" placeholder="Enter number 1">
+                    <input type="number" name="numb2" id="numb2" placeholder="Enter number 2">
+                    <button id="btn-validate04">Validar</button>
+                    <script type="module" src="./JS/exercise04.js"></script>
+                </div>
+            </div>
+
+            <div class="app05">
+                <div class="ex05">Exercise 5</div>
+                <div class="des05">
+                    <p>Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.</p>
+                </div>
+                <div class="sol05">
+                    <p>Solucion:</p>
+                    <input type="number" name="numb3" id="numb3" placeholder="Enter number 1">
+                    <input type="number" name="numb4" id="numb4" placeholder="Enter number 2">
+                    <button id="btn-validate05">Validar</button>
+                    <script type="module" src="./JS/exercise05.js"></script>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div>
+        <p>&copy; 2024 Your Company</p>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="./icons/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="./icons/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://www.whatsapp.com" target="_blank">
+                <img src="./icons/whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>

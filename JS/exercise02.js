@@ -7,7 +7,7 @@ function sum(num1, num2){
 }
 
 function render(num1, num2, total) {
-    const divapp = document.getElementById('app02');
+    const divapp = document.querySelector(`.sol02`);
     const txt = `La suma de ${num1} + ${num2} es ${total}`
     divapp.innerHTML = txt;
 }

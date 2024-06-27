@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #685f5f; /* Light gray background for contrast */
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 2px solid #333;
+}
+
+footer {
+    background-color: #333; /* Dark gray background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #4CAF50;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #fff;
+    width: 95%;
+    max-width: 1200px;
+}
+
+.app00, .app01, .app02, .app03, .app04, .app05 {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.ex00, .ex01, .ex02, .ex03, .ex04, .ex05 {
+    font-weight: bold;
+    background-color: #a72d2d;
+    padding: 10px;
+    border-bottom: 2px solid #333;
+    text-align: center;
+    width: 100px;
+}
+
+.des00, .des01, .des02, .des03, .des04, .des05 {
+    padding: 10px;
+    border-bottom: 2px solid #333;
+    background-color: #c4e743;
+    width: 600px;
+}
+
+.sol00, .sol01, .sol02, .sol03, .sol04, .sol05 {
+    padding: 10px;
+    background-color: #73ec79;
+    width: 400px;
+}
+
+input[type="text"], button {
+    width: calc(100% - 24px);
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+footer .social-links img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+footer .social-links img:hover {
+    transform: scale(1.2);
+}
