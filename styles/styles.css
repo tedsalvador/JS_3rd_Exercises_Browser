@@ -43,7 +43,7 @@ main {
     max-width: 1200px;
 }
 
-.app00, .app01, .app02, .app03, .app04, .app05 {
+.app00, .app01, .app02, .app03, .app04, .app05, .app06, .app07, .app08, .app09, .app10 {
     display: flex;
     flex-direction: row;
     border: 2px solid #333;
@@ -51,23 +51,25 @@ main {
     background-color: #f9f9f9;
 }
 
-.ex00, .ex01, .ex02, .ex03, .ex04, .ex05 {
+/* .ex00, .ex01, .ex02, .ex03, .ex04, .ex05 { */
+.exe {
     font-weight: bold;
-    background-color: #a72d2d;
+    background-color: #676262;
     padding: 10px;
-    border-bottom: 2px solid #333;
+    /* border-bottom: 2px solid #333; */
     text-align: center;
     width: 100px;
 }
 
-.des00, .des01, .des02, .des03, .des04, .des05 {
+/* .des00, .des01, .des02, .des03, .des04, .des05 { */
+.des {
     padding: 10px;
-    border-bottom: 2px solid #333;
+    /* border-bottom: 2px solid #333; */
     background-color: #c4e743;
     width: 600px;
 }
 
-.sol00, .sol01, .sol02, .sol03, .sol04, .sol05 {
+.sol00, .sol01, .sol02, .sol03, .sol04, .sol05, .sol06, .sol07, .sol08, .sol09, .sol10 { 
     padding: 10px;
     background-color: #73ec79;
     width: 400px;
