@@ -1,3 +1,11 @@
+/*
+Se solicita ingresar 2 valores numericos
+luego de los dos numeros encontramos el menor
+lo usamos para armar un loop desde 2 hasta el valor menor encontrado
+y recorremos el loop
+donde cada valor del loop debe ser divisor para ambos numeros.
+el loop empieza en 2 hasta el valor menor.
+*/
 const valNumb1 = document.getElementById('numb11');
 const valNumb2 = document.getElementById('numb12');
 const btnValidate = document.getElementById('btn-validate14');

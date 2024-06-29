@@ -1,3 +1,9 @@
+/*
+en un campo textarea solicitamos el ingreso de la frase
+posteriormente cambiamos el texto a letras minusculas
+utilizamos un array para poner las 5 vocales a buscar
+luego recorremos la frase
+*/
 const inputfrase = document.getElementById('frase08');
 const btnValidate = document.getElementById('btn-validate08');
 const divapp = document.querySelector(`.sol08`);

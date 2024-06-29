@@ -1,3 +1,10 @@
+/*
+Para este ejercicio se utiliza el comando MODULO, y el cual se aplicamos
+al valor que se solicita ingresar
+aqui no piden mostrar el primer valor por el cual es divisible entre 2,3,5,7
+la diferencia con el anterior es que debe mostrar si es divisible por mas de un valor entre
+2,3,5 o 7
+*/
 const valNumb1 = document.getElementById('numb9');
 const btnValidate = document.getElementById('btn-validate12');
 const divapp = document.querySelector(`.sol12`);

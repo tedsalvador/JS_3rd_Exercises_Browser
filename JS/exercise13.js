@@ -1,3 +1,11 @@
+/*
+Solicitamos ingresar un valor numerico
+hacemos un loop para recorrer desde 1 hasta el mismo numero
+e ir dividiendolo con el modulo % y para los que cumpla 
+sera su divisor
+Cada vez que cumpla la condicion se acumula en un array.
+para finalmente mostramos el array de divisores.
+*/
 const valNumb1 = document.getElementById('numb10');
 const btnValidate = document.getElementById('btn-validate13');
 const divapp = document.querySelector(`.sol13`);

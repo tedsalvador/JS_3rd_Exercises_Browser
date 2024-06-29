@@ -1,3 +1,9 @@
+/*
+en un campo textarea solicitamos el ingreso de la frase
+posteriormente cambiamos el texto a letras minusculas
+usamos el comando indexOf , para contar cuantas veces existe la tera a
+dentro de la frase.
+*/
 const inputfrase = document.getElementById('frase09');
 const btnValidate = document.getElementById('btn-validate09');
 const divapp = document.querySelector(`.sol09`);

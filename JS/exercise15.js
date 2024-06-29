@@ -1,3 +1,12 @@
+/*
+solicitar ingresar un valor numerico
+luego un valor primo es SOLO divisible por la UNIDAD y por SU MISMO VALOR
+armamos un loop que cuente los divisore del numero ingresado
+es decir recorremos desde 1 hasta el valor ingreado
+y lo vamos dividiendo por el modulo desde 1,2,3,4...hasta el valor
+y usamos un contador para contar las veces que encuentra el modulo
+si el contador es mayor que 2 entonces se descarta como PRIMO.
+*/
 const valNumb1 = document.getElementById('numb13');
 const btnValidate = document.getElementById('btn-validate15');
 const divapp = document.querySelector(`.sol15`);

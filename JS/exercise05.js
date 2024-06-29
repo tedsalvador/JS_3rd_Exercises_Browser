@@ -1,3 +1,8 @@
+/*
+Debemos solicitar dos valores al usuario, son campos text number
+verificamos que contengan valores numericos
+y mediante un if, preguntamos cual es mayor y lo mostramos en pantalla
+*/
 const valNumb1 = document.getElementById('numb3');
 const valNumb2 = document.getElementById('numb4');
 const btnValidate = document.getElementById('btn-validate05');

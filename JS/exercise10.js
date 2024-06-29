@@ -1,3 +1,11 @@
+/*
+en un campo textarea solicitamos el ingreso de la frase
+posteriormente cambiamos el texto a letras minusculas
+usamos el comando indexOf , para contar cuantas veces existe la tera a
+dentro de la frase.
+Aqui usamos 2 for para recorrer para las 5 veces la busqueda en la frase
+y a la vez se van acumulando cuantas veces encuentra cada vocal
+*/
 const inputfrase = document.getElementById('frase10');
 const btnValidate = document.getElementById('btn-validate10');
 const divapp = document.querySelector(`.sol10`);

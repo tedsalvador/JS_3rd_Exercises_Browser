@@ -1,3 +1,8 @@
+/* 
+definimos dos variables numericos 
+ en una funcion realizamos la operacion solicitada
+ y con el comando innerhtml mostramos el resultado de la suma
+. */
 const numb1 = 3;
 const numb2 = 5;
 

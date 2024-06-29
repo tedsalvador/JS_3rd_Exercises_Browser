@@ -1,3 +1,8 @@
+/*
+Para este ejercicio se utiliza el comando MODULO, y el cual se aplicamos
+al valor que se solicita ingresar
+aqui no piden mostrar el primer valor por el cual es divisible entre 2,3,5,7
+*/
 const valNumb1 = document.getElementById('numb8');
 const btnValidate = document.getElementById('btn-validate11');
 const divapp = document.querySelector(`.sol11`);

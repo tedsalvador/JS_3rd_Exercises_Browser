@@ -1,3 +1,10 @@
+/* 
+definimos dos campos numericos para poder ingresar los valores necesarios
+se validan que ingresen valores no textos con el inout text NUMBER
+ en una funcion realizamos la operacion solicitada
+ y con el comando innerhtml mostramos el resultado de la suma
+. */
+
 const valNumb1 = document.getElementById('numb1');
 const valNumb2 = document.getElementById('numb2');
 const btnValidate = document.getElementById('btn-validate04');

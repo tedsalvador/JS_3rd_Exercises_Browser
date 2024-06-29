@@ -1,3 +1,10 @@
+/*
+Similar al ejercicio anterior solo que ahora solicitamos al usuario
+que ingrese tre valores en tres campos number por pantalla
+y comparamos el primer valor con los otros 2  que debe ser mayor que ambos
+lo mismo hacemos para el segundo valor
+*/
+
 const valNumb1 = document.getElementById('numb5');
 const valNumb2 = document.getElementById('numb6');
 const valNumb3 = document.getElementById('numb7');
