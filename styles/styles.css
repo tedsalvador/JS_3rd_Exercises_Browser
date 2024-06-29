@@ -43,7 +43,8 @@ main {
     max-width: 1200px;
 }
 
-.app00, .app01, .app02, .app03, .app04, .app05, .app06, .app07, .app08, .app09, .app10 {
+/* .app00, .app01, .app02, .app03, .app04, .app05, .app06, .app07, .app08, .app09, .app10 { */
+.app {
     display: flex;
     flex-direction: row;
     border: 2px solid #333;
@@ -69,7 +70,7 @@ main {
     width: 600px;
 }
 
-.sol00, .sol01, .sol02, .sol03, .sol04, .sol05, .sol06, .sol07, .sol08, .sol09, .sol10 { 
+.sol00, .sol01, .sol02, .sol03, .sol04, .sol05, .sol06, .sol07, .sol08, .sol09, .sol10, .sol11 , .sol12, .sol13, .sol14, .sol15 { 
     padding: 10px;
     background-color: #73ec79;
     width: 400px;
